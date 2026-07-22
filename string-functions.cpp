@@ -12,7 +12,7 @@ int main()
 
 // strcpy//
 strcpy(str3,str1);
-cout<<"After strcpy():"<<str3<<endl;
+cout<<"After strcpy():"<<str3<<endl;// str1 ,str3 me copye ho jayega aur str3 hi print ho jayega//
 
 // strcat//
 strcat(str1,str2);
@@ -22,7 +22,8 @@ cout<<"After strcat():"<<str1<<endl;
 cout << "lenght of str1:"<<strlen(str1)<<endl;
 
 // strcmp()//
-int result=strcmp(str1,str2);
+int result=strcmp(str1,str2); // comparison character wise means ascii se hoga ek word (str1) ek word str2 ka compare hoga//
+// dono ki ascii value ko minus karenge jo value milgei usi se compare hoga//
 
 if (result==0)
 cout<<"both strings are equal"<<endl;
