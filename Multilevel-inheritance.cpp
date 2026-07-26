@@ -21,7 +21,7 @@ using namespace std;
         public:
         int data2;
         void m3(){
-            cout<<"m3 method"<<endl;
+            cout<<"m3 methods"<<endl;
         }
      };
 

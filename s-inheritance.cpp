@@ -13,7 +13,7 @@ using namespace std;
         public:
         int data2;
         void m2(){
-            cout<<"m2 method"<<endl;
+            cout<<"m2 methods"<<endl;
         }
     };
 
